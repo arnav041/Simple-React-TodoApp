@@ -1,0 +1,29 @@
+.todoitems {
+    margin: 2rem 0 ;
+}
+
+.todo-list-item {
+    display: flex;
+    justify-content: space-between;
+    background: rgb(76, 2, 98);
+    margin-bottom: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.todo-list-item p {
+    margin: 0;
+    padding: 7px 0px;
+    padding-left: 10px;
+    width: 100%;
+    text-align: left;
+}
+
+.close-todo-item {
+    font-size: 24px;
+    font-weight: 900;
+    color: white;
+    text-align: right;
+    margin: 0 10px;
+    cursor: pointer;
+}
